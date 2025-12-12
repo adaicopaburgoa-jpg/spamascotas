@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f2f2f2;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.contenedor {
+    width: 280px;
+    margin: auto;
+    background: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+label {
+    margin-top: 8px;
+    font-size: 14px;
+    display: block;
+}
+
+input {
+    width: 95%;
+    padding: 6px;
+    margin-top: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 12px;
+    background: #3399ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1a75d1;
+}
+
+#mensaje {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.producto {
+    background: white;
+    border: 1px solid #ccc;
+    width: 120px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.producto img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
